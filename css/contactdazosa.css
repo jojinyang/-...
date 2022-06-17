@@ -1,0 +1,110 @@
+body {
+    font: 18px noto sans serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.section-wrap {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0;
+}
+
+.hero-wrap {
+    position: relative;
+}
+.animate__fadeInUp {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    width: 450px;
+}
+.hero {
+    background: url(../images/dazosa/dazosa-hero.png) no-repeat center/cover;
+    width: 100%;
+    height: 650px;
+}
+
+.dazosa-tab-wrap{
+    width: 100%;
+    border-top: 1px solid #0F70A3;
+    border-bottom: 1px solid #0F70A3;
+
+}
+.dazosa-tab {
+    max-width: 480px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    color: #0F70A3;
+}
+.ansdml h2{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 100px;
+    text-align: center;
+    color: #0F70A3;
+}
+.subbtn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 0 ;
+}
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 30px;
+}
+#contact div{
+    padding: 10px;
+    
+}
+.subbtn{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.subbtn > input {
+    padding: 10px 80px;
+    border: 0;
+    color: #0f70a3;
+    font-size: 22px ;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #0f70a3;
+}
+.subbtn > input:hover{
+    background: #0f70a3;
+    color: white;
+}
